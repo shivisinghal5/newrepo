@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Base.base_class">
+        <methods>
+          <include name="endtest"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Base.base_class -->
+      <class name="testCases.TC_001">
+        <methods>
+          <include name="select_product"/>
+          <include name="login"/>
+          <include name="Add_address"/>
+        </methods>
+      </class> <!-- testCases.TC_001 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
